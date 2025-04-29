@@ -53,6 +53,25 @@
   }
 }
 
+@media screen and (max-width: 1220px) {
+  .experience-details-container {
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 230px;
+  }
+
+  .article-container {
+    color: black;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .about {
     padding: 2rem 1rem;
