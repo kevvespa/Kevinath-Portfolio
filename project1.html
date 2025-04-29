@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Food Recipe App Project</title>
+
+    <script src="./scripts/lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/lightbox.min.css" />
+
+    <link rel="stylesheet" href="./css/project1-style.css" />
+    <link rel="stylesheet" href="./mediaqueries/mediaqueries-project1.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"><a href="index.html">Kevinath</a></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#experience">Experience</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Kevinath</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html#about" onclick="toggleMenu()">About</a></li>
+          <li>
+            <a href="index.html#experience" onclick="toggleMenu()"
+              >Experience</a
+            >
+          </li>
+          <li>
+            <a href="index.html#projects" onclick="toggleMenu()">Projects</a>
+          </li>
+          <li>
+            <a href="index.html#contact" onclick="toggleMenu()">Contact</a>
+          </li>
+        </div>
+      </div>
+    </nav>
+    <div class="project-detail">
+      <div class="text-content">
+        <h1>
+          <span
+            class="section-title"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            >Food Recipe System - App</span
+          >
+        </h1>
+        <p data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">
+          The food recipe system is a flexible and easy-to-use
+          <span>react native</span>
+          application that aims to make sharing recipes with friends, family,
+          and co-workers easier.
+        </p>
+      </div>
+      <div
+        class="image-content"
+        data-aos="fade-left"
+        data-aos-duration="1500"
+        data-aos-delay="400"
+      >
+        <img src="./assets/Project1/Picture1.png" alt="Web Design" />
+      </div>
+      <div class="text-content-details">
+        <h3 data-aos="fade-left" data-aos-duration="1500">
+          Project Aim and Goal
+        </h3>
+        <p data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">
+          To develop a
+          <span>Food Recipe/Cooking Guidance Application System</span>, designed
+          to cater to users of all levels, from students to housewives. A
+          user-friendly platform offers a diverse <span>database</span> filled
+          with healthy recipes, ranging from simple to advanced. Food tabs
+          provides a list of ingredients and step-by-step guides. For enhanced
+          learning, incorporated instructional videos demonstrating the exact
+          cooking methods. For user engagement, offering options to suggest new
+          additions to continually enrich the system.
+        </p>
+        <br />
+        <h3 data-aos="fade-left" data-aos-duration="1500">
+          Stack and Explanation
+        </h3>
+        <p data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">
+          For this project, <span>React Native</span> was chosen as the
+          programming language for its cross-platform support and performance
+          advantages. <span>Visual Studio Code</span> was selected as the
+          integrated development environment (IDE) due to its user-friendly
+          interface, cross-platform compatibility, and alignment with React
+          Native. Additionally, <span>Firebase</span> was deemed the most
+          suitable and cost-effective <span>database management system</span>,
+          offering a broader range of features compared to example MongoDB's
+          free usage. Lastly, Windows 11 Pro was chosen as the operating system
+          for its modern features and compatibility with the selected software
+          tools. Overall, the chosen tools and technologies are well-suited for
+          the project's development and implementation.
+        </p>
+      </div>
+    </div>
+
+    <div class="project-gallery">
+      <h2 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="600">
+        Project Gallery
+      </h2>
+      <div
+        class="carousel"
+        data-aos="fade-left"
+        data-aos-duration="1500"
+        data-aos-delay="800"
+      >
+        <a
+          href="./assets/Project1/Picture2.png"
+          data-lightbox="gallery"
+          data-title="First Screenshot"
+        >
+          <img src="./assets/Project1/Picture2.png" alt="Project 1" />
+        </a>
+
+        <a
+          href="./assets/Project1/Picture3.png"
+          data-lightbox="gallery"
+          data-title="Second Screenshot"
+        >
+          <img src="./assets/Project1/Picture3.png" alt="Project 2" />
+        </a>
+
+        <a
+          href="./assets/Project1/Picture4.png"
+          data-lightbox="gallery"
+          data-title="Third Screenshot"
+        >
+          <img src="./assets/Project1/Picture4.png" alt="Project 3" />
+        </a>
+
+        <a
+          href="./assets/Project1/Picture5.png"
+          data-lightbox="gallery"
+          data-title="Forth Screenshot"
+        >
+          <img src="./assets/Project1/Picture5.png" alt="Project 3" />
+        </a>
+
+        <a
+          href="./assets/Project1/Picture1.png"
+          data-lightbox="gallery"
+          data-title="Fifth Screenshot"
+        >
+          <img src="./assets/Project1/Picture1.png" alt="Project 3" />
+        </a>
+
+        <a
+          href="./assets/Project1/Picture6.png"
+          data-lightbox="gallery"
+          data-title="Sixth Screenshot"
+        >
+          <img src="./assets/Project1/Picture6.png" alt="Project 3" />
+        </a>
+
+        <a
+          href="./assets/Project1/Picture7.png"
+          data-lightbox="gallery"
+          data-title="Sevent Screenshot"
+        >
+          <img src="./assets/Project1/Picture7.png" alt="Project 3" />
+        </a>
+
+        <a
+          href="./assets/Project1/Picture8.png"
+          data-lightbox="gallery"
+          data-title="Eighth Screenshot"
+        >
+          <img src="./assets/Project1/Picture8.png" alt="Project 3" />
+        </a>
+      </div>
+    </div>
+    <div
+      class="back-button"
+      data-aos="fade-left"
+      data-aos-duration="1500"
+      data-aos-delay="1200"
+    >
+      <a href="index.html#projects">< Back to Projects</a>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 0 });
+    </script>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>
+        Copyright &#169; 2025
+        <span onclick="location.href='index.html'">Kevinath.</span> All Rights
+        Reserved.
+      </p>
+    </footer>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

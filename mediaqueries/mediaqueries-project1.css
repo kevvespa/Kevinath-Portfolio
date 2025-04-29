@@ -1,0 +1,204 @@
+/* ================= TABLET  ================= */
+@media (max-width: 879px) {
+  /* 1. Move the button back to the edge and keep spacing tight */
+  .back-button {
+    padding: 16px 20px; /* no giant left‑indent */
+    text-align: left;
+  }
+
+  /* 2. Reduce button size just a hair so it fits small screens */
+  .back-button a {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+
+  /* 3.  Stack image UNDER the text  */
+  .project-detail {
+    flex-direction: column; /* <‑‑ the magic line */
+    gap: 24px;
+    padding: 0 20px;
+    margin: 20px auto;
+  }
+
+  /* 4.  Remove the negative margin that was pushing the H1 upward */
+  .text-content h1 {
+    margin: 0 0 20px 0; /* top‑spacing reset */
+    text-align: center; /* looks nicer on phones */
+  }
+
+  .text-content {
+    flex: 1 1 100%;
+    text-align: center; /* centre the paragraph too */
+  }
+
+  .text-content p {
+    font-size: 16px;
+    margin-top: 40px;
+  }
+
+  .image-content {
+    flex: 1 1 100%;
+  }
+
+  .image-content img {
+    max-height: 760px; /* shorter hero on phones */
+  }
+
+  /* 5.  Gallery images a bit smaller so three fit on most phones */
+  .carousel img {
+    max-height: 150px;
+  }
+
+  /* 6.  Gallery title spacing */
+  .project-gallery {
+    margin: 40px auto;
+  }
+
+  .project-gallery h2 {
+    font-size: 24px;
+  }
+
+  .text-content {
+    flex: 1 1 400px;
+    text-align: left;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0.5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+}
+
+/* ================= MOBILE  ================= */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  /* 1. Move the button back to the edge and keep spacing tight */
+  .back-button {
+    padding: 16px 20px; /* no giant left‑indent */
+    text-align: left;
+  }
+
+  /* 2. Reduce button size just a hair so it fits small screens */
+  .back-button a {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+
+  /* 3.  Stack image UNDER the text  */
+  .project-detail {
+    flex-direction: column; /* <‑‑ the magic line */
+    gap: 24px;
+    padding: 0 20px;
+    margin: 20px auto;
+    margin-top: -10px;
+  }
+
+  /* 4.  Remove the negative margin that was pushing the H1 upward */
+  .text-content h1 {
+    margin: 0 0 20px 0; /* top‑spacing reset */
+    text-align: center; /* looks nicer on phones */
+  }
+
+  .text-content {
+    flex: 1 1 100%;
+    text-align: left; /* centre the paragraph too */
+  }
+
+  .text-content p {
+    font-size: 16px;
+    margin-top: 40px;
+  }
+
+  .image-content {
+    flex: 1 1 100%;
+  }
+
+  .image-content img {
+    padding-top: 30px;
+    max-height: 660px; /* shorter hero on phones */
+  }
+
+  /* 5.  Gallery images a bit smaller so three fit on most phones */
+  .carousel img {
+    max-height: 150px;
+  }
+
+  /* 6.  Gallery title spacing */
+  .project-gallery {
+    margin: 40px auto;
+  }
+
+  .project-gallery h2 {
+    font-size: 24px;
+  }
+
+  h1 .section-title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    width: 350px;
+    height: 3px;
+    background-color: black;
+    border-radius: 2px;
+  }
+
+  h1 .section-title::after {
+    content: "";
+    position: absolute;
+    left: 22%;
+    bottom: -23px;
+    width: 200px;
+    height: 3px;
+    background-color: black;
+    border-radius: 2px;
+  }
+}
