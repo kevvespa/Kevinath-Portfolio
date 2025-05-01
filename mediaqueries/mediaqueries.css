@@ -53,7 +53,7 @@
   }
 }
 
-@media screen and (max-width: 1220px) {
+/* @media screen and (max-width: 1220px) {
   .experience-details-container {
     display: flex;
     width: 400px;
@@ -69,7 +69,7 @@
     gap: 2.5rem;
     justify-content: space-around;
   }
-}
+} */
 
 @media screen and (max-width: 768px) {
   .about {
