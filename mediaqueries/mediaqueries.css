@@ -77,12 +77,6 @@
     margin: 0 0 20px 0; /* no negative margin */
     text-align: center; /* centered heading */
   }
-
-  .project-detail {
-    flex-direction: column;
-    padding: 0 20px;
-  }
-
   .image-content img {
     width: 100%;
     height: auto;
@@ -116,6 +110,13 @@
 
   .arrow_text {
     display: none;
+  }
+  .project-containers {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
   }
 }
 
@@ -176,5 +177,13 @@
 
   .arrow_text {
     display: none;
+  }
+
+  .project-containers {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
   }
 }
