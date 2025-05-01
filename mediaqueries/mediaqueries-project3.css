@@ -180,13 +180,14 @@
     font-size: 24px;
   }
 
+  /* 7.  Project title underline spacing */
   h1 .section-title::before {
     content: "";
     position: absolute;
-    left: 0;
+    left: 13%;
     bottom: -15px;
-    width: 335px;
-    height: 3px;
+    width: 300px;
+    height: 4px;
     background-color: black;
     border-radius: 2px;
   }
@@ -194,7 +195,7 @@
   h1 .section-title::after {
     content: "";
     position: absolute;
-    left: 22%;
+    left: 27%;
     bottom: -23px;
     width: 180px;
     height: 3px;
